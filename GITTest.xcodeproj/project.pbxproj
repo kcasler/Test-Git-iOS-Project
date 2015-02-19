@@ -14,6 +14,7 @@
 		C7A8922A1A96448E0062263A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A892291A96448E0062263A /* Images.xcassets */; };
 		C7A8922D1A96448E0062263A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7A8922B1A96448E0062263A /* LaunchScreen.xib */; };
 		C7A892391A96448E0062263A /* GITTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A892381A96448E0062263A /* GITTestTests.m */; };
+		C7A892441A96483A0062263A /* FGTest.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A892431A96483A0062263A /* FGTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C7A892321A96448E0062263A /* GITTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7A892371A96448E0062263A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C7A892381A96448E0062263A /* GITTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GITTestTests.m; sourceTree = "<group>"; };
+		C7A892421A96483A0062263A /* FGTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FGTest.h; sourceTree = "<group>"; };
+		C7A892431A96483A0062263A /* FGTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FGTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				C7A892291A96448E0062263A /* Images.xcassets */,
 				C7A8922B1A96448E0062263A /* LaunchScreen.xib */,
 				C7A8921C1A96448E0062263A /* Supporting Files */,
+				C7A892421A96483A0062263A /* FGTest.h */,
+				C7A892431A96483A0062263A /* FGTest.m */,
 			);
 			path = GITTest;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A892441A96483A0062263A /* FGTest.m in Sources */,
 				C7A892251A96448E0062263A /* ViewController.m in Sources */,
 				C7A892221A96448E0062263A /* AppDelegate.m in Sources */,
 				C7A8921F1A96448E0062263A /* main.m in Sources */,
